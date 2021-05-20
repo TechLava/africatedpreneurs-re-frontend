@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!--Link to the CSS file-->
+  <link rel="stylesheet" href="../css/index.css">
+  
+  <!--Link to fontawesome CDN and file-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+     <link rel="stylesheet" href="all.css">
+   <script src="https://kit.fontawesome.com/1cbee15c00.js" crossorigin="anonymous"></script> 
+
+    <title>Discussion</title>
+
+    <style>
+        body{
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container" id="discussions">
+
+        <header id="eventheader">
+
+            <img src="../images/logo.png" id="eventlogo">
+
+        <div id="search">
+         <i class="fa fa-search" aria-hidden="true"></i>	
+            <p><a href="./search.html">Search</a></p>
+        </div>
+
+        <!-- desktop navbar -->
+        <nav class="eventnav hideOnMobile">
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="./discussion.html" id="active">discussions</a></li>
+                <li><a href="./event.html">events</a></li>
+                <li><a href="./profile.html">profile</a></li>
+                <li><a href="./notifications.html">notifications</a></li>
+            </ul>
+        </nav>
+
+          <!-- mobile comment-->
+  	 	<div class="hideOnDesktop comment">
+            <i class="fa fa-comment" aria-hidden="true"></i>	<span><a href="src/comment.html">write post</a></span>
+        </div>
+
+        </header>
+
+        <!-- mobile navbar -->
+        <nav class="discussnav hideOnDesktop">
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="./discussion.html" id="active">discussions</a></li>
+                <li><a href="./event.html">events</a></li>
+                <li><a href="./profile.html">profile</a></li>
+                <li><a href="./notifications.html">notifications</a></li>
+            </ul>
+        </nav>
+
+        <main class="fordiscuss">
+
+            <!-- for mobile display -->
+            <div class="mobile-main hideOnDesktop">
+
+                <section class="groups">
+
+                    <h4>my groups</h4> 
+                    
+                    <div class="choice">
+                        <img src="../images/grace.svg">
+                        <div class="actions" id="action">
+                            <h3>interior designers</h3>
+                            <p>25 new posts</p>
+                        </div>
+                    </div>
+
+                    <div class="choice">
+                        <img src="../images/grace.svg">
+                        <div class="actions" id="action">
+                            <h3>interior designers</h3>
+                            <p>25 new posts</p>
+                        </div>
+                    </div>
+
+                    <div class="choice">
+                        <img src="../images/grace.svg">
+                        <div class="actions" id="action">
+                            <h3>interior designers</h3>
+                            <p>25 new posts</p>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="discover">
+
+                    <h4>discover groups</h4>
+
+                    <div class="choice">
+                        <img src="../images/grace.svg">
+                        <div class="actions" id="action">
+                            <h3>interior designers</h3>
+                            <p>25 new posts</p>
+                        </div>
+                    </div>
+
+                    <div class="choice">
+                        <img src="../images/grace.svg">
+                        <div class="actions" id="action">
+                            <h3>interior designers</h3>
+                            <p>25 new posts</p>
+                        </div>
+                    </div>
+
+                    <div class="choice">
+                        <img src="../images/grace.svg">
+                        <div class="actions" id="action">
+                            <h3>interior designers</h3>
+                            <p>25 new posts</p>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="create">
+                    <h4>create new group</h4>
+                    <input type="text" placeholder="name"> 
+                    <br> <br> <br>
+                    <input type="number" placeholder="number">
+                    <div id="act">
+                        <a href="#">create group</a>
+                    </div>
+                </section>
+
+            </div>  <!--mobile display ends here -->
+
+            <!--desktop design -->
+            <section id="one" class="hideOnMobile">
+
+                <h4>discover new groups</h4>
+
+                <div class="joingroup">
+                    <img src="../images/type.jpg">
+                    <p class="p8">m&m unique group</p>
+                    <p class="p9">12,000 members</p>
+                    <p class="p0">20+ posts per day</p>
+                    <div class="joinlink">
+                        <a href="#">join</a>
+                    </div>
+                </div>
+
+                <div class="joingroup">
+                    <img src="../images/type1.jpg">
+                    <p class="p8">fisayo fashion house</p>
+                    <p class="p9">8,000 members</p>
+                    <p class="p0">5+ posts per day</p>
+                    <div class="joinlink">
+                        <a href="#">join</a>
+                    </div>
+                </div>
+
+                <div class="joingroup">
+                    <img src="../images/type3.jpg">
+                    <p class="p8">elect brothers</p>
+                    <p class="p9">10,000 members</p>
+                    <p class="p0">10+ posts per day</p>
+                    <div class="joinlink">
+                        <a href="#">join</a>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="two" class="hideOnMobile">
+
+                <div id="searchgroups">
+                	<i class="fa fa-search" aria-hidden="true"></i>
+                    <p><a href="./search.html">Search groups</a></p>
+                </div>
+
+                <div class="groupsearch">
+                    <img src="../images/soccer.jpg">
+                    <div class="story">
+
+                        <h2>5 tips to showcase your designs that your clients will love</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Inventore, ipsam cupiditate! Ullam ratione ipsum velit
+                             quidem soluta... <a href="#">read more</a></p>
+
+                             <p id="p11">302 comment</p>
+                             <p id="p12">20 likes</p>
+
+                             <div class="extrass">
+                                <i class="fa fa-thumbs-up" aria-hidden="true"></i><span class="add">likes</span>
+                                <i class="fa fa-comment" aria-hidden="true"></i><span class="add">comment</span>
+                                <i class="fa fa-expand" aria-hidden="true"></i>	<span class="add">recommend</span>
+                                <i class="fa fa-share" aria-hidden="true"></i><span class="add">share</span>
+                                            </div>
+
+                    </div>
+                </div>
+
+                <div class="groupsearch">
+                    <img src="../images/grid.jpg">
+                    <div class="story">
+
+                        <h2>5 tips to showcase your designs that your clients will love</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Inventore, ipsam cupiditate! Ullam ratione ipsum velit
+                             quidem soluta... <a href="#">read more</a></p>
+
+                             <p id="p11">302 comment</p>
+                             <p id="p12">20 likes</p>
+
+                             <div class="extrass">
+                                <i class="fa fa-thumbs-up" aria-hidden="true"></i><span class="add">likes</span>
+                                <i class="fa fa-comment" aria-hidden="true"></i><span class="add">comment</span>
+                                <i class="fa fa-expand" aria-hidden="true"></i>	<span class="add">recommend</span>
+                                <i class="fa fa-share" aria-hidden="true"></i><span class="add">share</span>
+                                            </div>
+
+                    </div>
+                </div>
+
+                <div class="groupsearch">
+                    <img src="../images/soccer.jpg">
+                    <div class="story">
+
+                        <h2>5 tips to showcase your designs that your clients will love</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Inventore, ipsam cupiditate! Ullam ratione ipsum velit
+                             quidem soluta... <a href="#">read more</a></p>
+
+                             <p id="p11">302 comment</p>
+                             <p id="p12">20 likes</p>
+
+                             <div class="extrass">
+                                <i class="fa fa-thumbs-up" aria-hidden="true"></i><span class="add">likes</span>
+                                <i class="fa fa-comment" aria-hidden="true"></i><span class="add">comment</span>
+                                <i class="fa fa-expand" aria-hidden="true"></i>	<span class="add">recommend</span>
+                                <i class="fa fa-share" aria-hidden="true"></i><span class="add">share</span>
+                                            </div>
+
+                    </div>
+                </div>
+
+                <div class="groupsearch">
+                    <img src="../images/grid.jpg">
+                    <div class="story">
+
+                        <h2>5 tips to showcase your designs that your clients will love</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Inventore, ipsam cupiditate! Ullam ratione ipsum velit
+                             quidem soluta... <a href="#">read more</a></p>
+
+                             <p id="p11">302 comment</p>
+                             <p id="p12">20 likes</p>
+
+                             <div class="extrass">
+                                <i class="fa fa-thumbs-up" aria-hidden="true"></i><span class="add">likes</span>
+                                <i class="fa fa-comment" aria-hidden="true"></i><span class="add">comment</span>
+                                <i class="fa fa-expand" aria-hidden="true"></i>	<span class="add">recommend</span>
+                                <i class="fa fa-share" aria-hidden="true"></i><span class="add">share</span>
+                                            </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="three" class="hideOnMobile">
+
+                <h4>my groups</h4>
+
+                <div class="joingroup">
+                    <div class="joinlink">
+                        Greatest Club
+                    </div>
+                    <img src="../images/type2.jpg">
+                </div>
+
+                <div class="joingroup">
+                    <div class="joinlink">
+                        Interior Designers
+                    </div>
+                    <img src="../images/type3.jpg">
+                </div>
+
+                <div class="joingroup">
+                    <div class="joinlink">
+                        Greatest Club
+                    </div>
+                    <img src="../images/type1.jpg">
+                </div>
+
+                <div class="joingroup">
+                    <div class="joinlink">
+                        Interior Designers
+                    </div>
+                    <img src="../images/type.jpg">
+                </div>
+
+            </section> <!--mobile display ends here -->
+
+        </main>
+
+    </div>
+    
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>

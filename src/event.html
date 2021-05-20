@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!--Link to the CSS file-->
+  <link rel="stylesheet" href="../css/index.css">
+  
+  <!--Link to fontawesome CDN and file-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+     <link rel="stylesheet" href="all.css">
+   <script src="https://kit.fontawesome.com/1cbee15c00.js" crossorigin="anonymous"></script> 
+
+    <title>events</title>
+</head>
+<body>
+
+    <div class="container" id="forevents">
+
+        <header id="eventheader">
+
+            <img src="../images/logo.png" id="eventlogo">
+
+        <div id="search">
+             <i class="fa fa-search" aria-hidden="true"></i>	
+            <p><a href="./search.html">Search</a></p>
+        </div>
+
+        <!-- desktop navbar -->
+        <nav class="eventnav hideOnMobile">
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="./discussion.html">discussions</a></li>
+                <li><a href="./event.html" id="active">events</a></li>
+                <li><a href="./profile.html">profile</a></li>
+                <li><a href="./notifications.html">notifications</a></li>
+            </ul>
+        </nav>
+
+          <!-- mobile comment-->
+  	 	<div class="hideOnDesktop comment">
+            <i class="fa fa-search" aria-hidden="true"></i>	<span><a href="src/comment.html">write post</a></span>
+        </div>
+
+        </header>
+
+        <main id="mainevent">
+            <!-- mobile navbar-->
+            <nav class="eventlinks hideOnDesktop">
+                <ul>
+                    <li><a href="../index.html">home</a></li>
+                    <li><a href="./discussion.html">discussions</a></li>
+                    <li><a href="./event.html" id="active">events</a></li>
+                    <li><a href="./profile.html">profile</a></li>
+                    <li><a href="./notifications.html">notifications</a></li>
+                </ul>
+            </nav>
+
+            <section id="eventleft">
+
+                <div id="eventsearch">
+                    <i class="fa fa-search" aria-hidden="true"></i>	
+                    <p><a href="./search.html">Search for events</a></p>
+                </div>
+
+                <div class="eventcategories">
+
+                    <h5>discover events by categories</h5>
+                    <div class="categories">
+
+                        <div class="category">
+                            <div class="types"><a href="#">medicine</a></div>
+                            <div class="types"><a href="#">religion</a></div>
+                            <div class="types"><a href="#">leadership</a></div>
+                            <div class="types"><a href="#">politics</a></div>
+                            <div class="types"><a href="#">culture</a></div>
+                            <div class="types"><a href="#">science</a></div>
+                        </div>
+
+                        <div class="category">
+                            <div class="types"><a href="#">writing</a></div>
+                            <div class="types"><a href="#">speaking</a></div>
+                            <div class="types"><a href="#">skills</a></div>
+                            <div class="types"><a href="#">design</a></div>
+                            <div class="types"><a href="#">tech</a></div>
+                            <div class="types"><a href="#">food</a> </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <hr id="r3">
+
+                <div class="ongoingevents">
+
+                    <div class="events">
+                        ongoing events
+                    </div>
+
+                    <div class="event1">
+
+                        <div class="event">
+                            <img src="../images/grid.jpg">
+                            <div class="details">
+                                <p class="p5">soft code masterclass</p>
+                                <p class="p6">ongoing webwinar</p>
+                                <p class="p7">ongoing now</p>
+                                <div class="join"><a href="#">join</a></div>
+                            </div>
+                        </div>
+
+                        <div class="event">
+                            <img src="../images/soccer.jpg">
+                            <div class="details">
+                                <p class="p5">soft code masterclass</p>
+                                <p class="p6">ongoing webwinar</p>
+                                <p class="p7">ongoing now</p>
+                                <div class="join"><a href="#">join</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="event2">
+
+                        <div class="event">
+                            <img src="../images/grid.jpg">
+                            <div class="details">
+                                <p class="p5">soft code masterclass</p>
+                                <p class="p6">ongoing webwinar</p>
+                                <p class="p7">ongoing now</p>
+                                <div class="join"><a href="#">join</a></div>
+                            </div>
+                        </div>
+
+                        <div class="event">
+                            <img src="../images/soccer.jpg">
+                            <div class="details">
+                                <p class="p5">soft code masterclass</p>
+                                <p class="p6">ongoing webwinar</p>
+                                <p class="p7">ongoing now</p>
+                                <div class="join"><a href="#">join</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="eventright" class="hideOnMobile">
+
+                <div class="newevent">
+                    <h4>new events</h4>
+                    <hr id="r2">
+                    <input type="text" placeholder="Find New Event">
+                </div>
+
+                <img src="../images/soccer.jpg" id="soccerevent">
+
+            </section>
+
+        </main>
+
+    </div>
+    
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Link to the CSS file-->
+  <link rel="stylesheet" href="../css/index.css">
+  
+  <!--Link to fontawesome CDN and file-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+     <link rel="stylesheet" href="all.css">
+   <script src="https://kit.fontawesome.com/1cbee15c00.js" crossorigin="anonymous"></script> 
+ 
+    <title>settings</title>
+
+    <style>
+        .settings-top{
+            height: 92vh;
+            padding-bottom: 10px;
+        }
+        #aside{
+            height: 70vh;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="settings-cont">
+
+        <div class="settings-top">
+
+              <!-- desktop side navigation-->
+     <aside class="hideOnMobile" id="aside">
+        <img src="../images/logo.png" id="profilelogo">
+        <nav class="sidenav hideOnMobile">
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="./settings.html" id="current">settings</a></li>
+                <li><a href="./help.html">help</a></li>
+                <li><a href="./logout.html">log out</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <div class="main-settings">
+
+        <div id="helps">
+            <a href="../index.html" class="hideOnDesktop"><i class="fa fa-arrow-left hideOnDesktop" aria-hidden="true"></i></a>
+            <h5>Settings</h5>
+        </div>
+
+        <div id="sub-helps" class="hideOnMobile">
+            We are the AfricatedPrenuer
+        </div>
+
+        <div class="alternative">
+            <h4 class="hideOnMobile">Security</h4>
+            <p><a href="#">forgot password?</a></p>
+        </div>
+
+        <form id="sett-form">
+            <label for="Current Password"> Password
+                <input type="password">
+            </label>
+            <label for="Password"> New Password 
+                <input type="password">
+            </label>
+            <label for="Password" id="l1"> Confirm Password
+                <input type="password">
+            </label>
+            <div class="save hideOnDesktop"><a href="#">Save</a></div>
+        </form>
+
+        <div class="save hideOnMobile"><a href="#">Save</a></div>
+
+    </div>
+
+        </div>
+
+        <div class="settings-bottom">
+
+            <div class="sett-left hideOnMobile">
+
+                <a href="../index.html">About Us</a>
+                <a href="#">Accessibilty</a>
+                <a href="#">Privacy</a> <br><br>
+                <a href="#">Advertisement</a>
+                <a href="./help.html">Help Centre</a> <br><br>
+                <a href="./help.html">Contact Us</a>
+                <a href="#">Terms and Conditions</a> <br><br>
+                <a href="#">Cookies</a>
+                <a href="#">Ad Choices</a> <br><br>
+                <p>&copy; AfricatedPrenuer 2021</p>
+
+            </div>
+
+            <div class="sett-right">
+
+                <div class="about"><a href="../index.html">About Us</a></div>
+                <div class="terms"><a href="#">Terms and Conditions</a></div>
+                <div class="contact"><a href="./help.html">Contact Us</a></div>
+
+            </div>
+
+        </div>
+
+    </div>
+   
+    
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>
