@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Link to the CSS file-->
+  <link rel="stylesheet" href="../css/index.css">
+  
+  <!--Link to fontawesome CDN and file-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+     <link rel="stylesheet" href="all.css">
+   <script src="https://kit.fontawesome.com/1cbee15c00.js" crossorigin="anonymous"></script> 
+ 
+    <title>login</title>
+
+    <style>
+
+        body{
+            background-color: #fff;
+        }
+
+        main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            margin-top: 2em;
+            justify-content: center;
+        }
+
+        #email{
+            margin-top: 4em;
+            margin-bottom: 1em;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        #password{
+            margin-top: 1em;
+            margin-bottom: 1em;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        input{
+            border: 1px solid black;
+            margin-top: 1em;
+            height: 30px;
+        }
+
+        #forgot{
+            text-align: right;
+        }
+
+        #forgot a{
+            text-decoration: none;
+            color: #48A43F;
+            text-align: right;
+        }
+
+        span{
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        #remember{
+            margin-left: -3em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        #login{
+            background-color: #48A43F;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 20%;
+            margin: auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        #login a{
+            text-decoration: none;
+            color: #fff;
+        }
+
+        #signup{
+            margin-top: 4em;
+        }
+
+        #signup a{
+            text-decoration: none;
+            color: #48A43F
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <main>
+
+        <form>
+        <label id="email">Email <br>
+            <input type="email">
+        </label>
+        <label for="password" id="password">Password <br>
+            <input type="password" required>
+        </label>
+        </form>
+        <p id="forgot"><a href="#">Forgot Password?</a></p>
+        <div id="remember">
+        <input type="checkbox"> <span>Remember me</span>
+        </div>
+        <div id="login"><a href="#"> Log in </a></div>
+        <p id="signup">Don't have an account? <a href="signup.html">Sign Up</a></p>
+
+    </main>
+    
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>

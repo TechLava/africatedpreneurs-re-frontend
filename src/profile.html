@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Link to the CSS file-->
+  <link rel="stylesheet" href="../css/index.css">
+  
+  <!--Link to fontawesome CDN and file-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+     <link rel="stylesheet" href="all.css">
+   <script src="https://kit.fontawesome.com/1cbee15c00.js" crossorigin="anonymous"></script> 
+
+    <title>Profile</title>
+
+    <style>
+        .people img{
+            border-radius: 50%;
+            width: 20%;
+        }
+        .fa-camera{
+            color: rgba(53, 103, 177, 1);
+        }
+
+        .fa-video-camera{
+            color: rgba(223, 62, 62, 1)
+        }
+
+        .fa-video{
+            color: rgba(79, 171, 200, 1);
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container" id="forprofile">
+
+     <!-- desktop side navigation-->
+     <aside class="hideOnMobile">
+         <img src="../images/logo.png" id="profilelogo">
+         <nav class="sidenav hideOnMobile">
+             <ul>
+                 <li><a href="../index.html">home</a></li>
+                 <li><a href="./settings.html">settings</a></li>
+                 <li><a href="./help.html">help</a></li>
+                 <li><a href="./logout.html">log out</a></li>
+             </ul>
+         </nav>
+     </aside>
+
+     <main id="profilemain">
+         <header id="profile">
+
+            <div class="hideOnDesktop" id="logo">
+                <img src="../images/logo.png" alt="logo"></div>
+             
+            <div id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>	
+                <p><a href="./search.html">Search</a></p>
+            </div>
+
+            <!-- mobile comment-->
+  	 	<div class="hideOnDesktop comment">
+            <i class="fa fa-search" aria-hidden="true"></i>	<span><a href="src/comment.html">write post</a></span>
+        </div>
+
+            <nav class="navlinks hideOnMobile">
+                <ul>
+                    <li><a href="../index.html">home</a></li>
+                    <li><a href="./discussion.html">discussions</a></li>
+                    <li><a href="./event.html">events</a></li>
+                    <li><a href="./profile.html" id="active">profile</a></li>
+                    <li><a href="./notifications.html">notifications</a></li>
+                </ul>
+            </nav>
+         </header>
+
+         <!--mobile navlinks-->
+         <nav class="navlink hideOnDesktop">
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="./discussion.html">discussions</a></li>
+                <li><a href="./event.html">events</a></li>
+                <li><a href="./profile.html" id="active">profile</a></li>
+                <li><a href="./notifications.html">notifications</a></li>
+            </ul>
+        </nav>
+
+         <section id="profilesection">
+
+            <div id="left">
+
+                <div class="lefttop">
+
+                    <div class="personal">
+                        <img src="../images/grace.svg">
+                        <h3>Adeola Roqeeb</h3>
+                        <p id="work">interior designer</p>
+                        <p id="sum">45.9% Active</p>
+                    </div>
+
+                    <hr id="rule">
+
+                    <div class="info">
+                        <p id="p1">adeola interiors</p>
+                        <p id="p2">ibadan nigeria</p>
+                        <p id="p3">adeolaroqeeb@gmail.com</p>
+                        <div class="edit"><a href="#">edit profile</a></div>
+                    </div>
+
+                </div>
+
+                <div class="leftbottom">
+                    <div>
+                    <p id="p4">interests</p>
+                    </div>
+
+                    <div class="people">
+                        <img src="../images/grace.svg">
+                        <div class="stats">
+                            <h5>eti john</h5>
+                            <p>12k interests</p>
+                        </div>
+                    </div>
+
+                    <div class="people">
+                        <img src="../images/james.jpg" height="45">
+                        <div class="stats">
+                            <h5>adegboyega inc</h5>
+                            <p>10k interests</p>
+                        </div>
+                    </div>
+
+                    <div class="people">
+                        <img src="../images/faith.jpg" height="45">
+                        <div class="stats">
+                            <h5>mamit</h5>
+                            <p>6k interests</p>
+                        </div>
+                    </div>
+
+                    <div class="people">
+                        <img src="../images/mary.jpg" height="45">
+                        <div class="stats">
+                            <h5>adeola interiors</h5>
+                            <p>15k interests</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="right" class="hideOnMobile">
+
+                <div class="writepost">
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                    <span><a href="src/comment.html">write post</a></span>
+                </div>
+
+                <div class="options">
+                    <p><i class="fa fa-camera" aria-hidden="true"></i> Picture</p>
+                    <p><i class="fa fa-video-camera" aria-hidden="true"></i> Video</p>
+                    <p><i class="fas fa-video" aria-hidden="true"></i> Go Live</p>
+                </div>
+
+                <div class="trends">
+
+                    <div class="trend1">
+          
+    <div class="about">
+                        
+        <div class="image">
+
+          <div class="img">
+     <img src="../images/grace.svg" alt="grace">
+          </div>
+
+          <div class="aboutImg">
+            <h5>Adeola Roqeeb</h5>
+        <p>34 mins</p>
+          </div>
+
+        </div>
+        
+        <div class="moreActions">
+     <img src="../images/help.svg" alt="actions">
+        </div>
+
+      </div>
+        
+      <div class="intro">
+        <p>interior designers are making waves in the space planning,
+            odation and house renovation. Ahmad Zikovic lead his team..... 
+       <a href="#">read more</a>
+       </p>
+       </div>
+      
+      <div class="reaction">
+
+            <div class="like">
+              <h5>302 comments</h5>
+              <h5>20 likes</h5>
+            </div>
+
+            <div class="extrax">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i><span class="add">likes</span>
+                <i class="fa fa-comment" aria-hidden="true"></i><span class="add">comment</span>
+                <i class="fa fa-expand" aria-hidden="true"></i>	<span class="add">recommend</span>
+                <i class="fa fa-share" aria-hidden="true"></i><span class="add">share</span>
+            </div>
+
+      </div>
+                    </div>
+
+                    <div class="trend2">
+
+                        <div class="about">
+                        
+                            <div class="image">
+                    
+                              <div class="img">
+                         <img src="../images/grace.svg" alt="grace">
+                              </div>
+                    
+                              <div class="aboutImg">
+                                <h5>Adeola Roqeeb</h5>
+                            <p>34 mins</p>
+                              </div>
+                    
+                            </div>
+                            
+                            <div class="moreActions">
+                         <img src="../images/help.svg" alt="actions">
+                            </div>
+                    
+                          </div>
+                            
+                          <div class="intro">
+                            <p>interior designers are making waves in the space planning, accommodation and house renovation. Ahmad Zikovic lead..... 
+                           <a href="#">read more</a>
+                           </p>
+                           </div>
+                          
+                          <div class="reaction">
+                    
+                                <div class="like">
+                                  <h5>302 comments</h5>
+                                  <h5>20 likes</h5>
+                                </div>
+                    
+                                <div class="extrax">
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i><span class="add">likes</span>
+                                    <i class="fa fa-comment" aria-hidden="true"></i><span class="add">comment</span>
+                                    <i class="fa fa-expand" aria-hidden="true"></i>	<span class="add">recommend</span>
+                                    <i class="fa fa-share" aria-hidden="true"></i><span class="add">share</span>
+                                </div>
+                    
+                          </div>   
+
+                    </div>
+
+                    <div class="trend3">
+
+                        <div class="about">
+                        
+                            <div class="image">
+                    
+                              <div class="img">
+                         <img src="../images/grace.svg" alt="grace">
+                              </div>
+                    
+                              <div class="aboutImg">
+                                <h5>Adeola Roqeeb</h5>
+                            <p>34 mins</p>
+                              </div>
+                    
+                            </div>
+                            
+                            <div class="moreActions">
+                         <img src="../images/help.svg" alt="actions">
+                            </div>
+                    
+                          </div>
+                            
+                          <div class="intro">
+                            <p>interior designers are making waves in the space planning, accommodation and house renovation. Ahmad Zikovic lead..... 
+                           <a href="#">read more</a>
+                           </p>
+                           </div>
+                          
+                          <div class="reaction">
+                    
+                                <div class="like">
+                                  <h5>302 comments</h5>
+                                  <h5>20 likes</h5>
+                                </div>
+                    
+                                <div class="extrax">
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i><span class="add">likes</span>
+                                    <i class="fa fa-comment" aria-hidden="true"></i><span class="add">comment</span>
+                                    <i class="fa fa-expand" aria-hidden="true"></i>	<span class="add">recommend</span>
+                                    <i class="fa fa-share" aria-hidden="true"></i><span class="add">share</span>
+                                </div>
+                    
+                          </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+         </section>
+
+     </main>
+
+    </div>
+
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>

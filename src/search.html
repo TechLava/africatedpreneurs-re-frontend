@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Link to fontawesome CDN and file-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+     <link rel="stylesheet" href="all.css">
+   <script src="https://kit.fontawesome.com/1cbee15c00.js" crossorigin="anonymous"></script> 
+ 
+    <title>search</title>
+
+    <style>
+
+        body{
+            background-color: rgba(235, 232, 232, 1);
+        }
+
+        main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .search{
+            border: 1px solid #48A43F;
+            border-radius: 10px;
+            background-color: rgba(72, 162, 63, 0.13);
+            display: flex;
+            align-items: center;
+            width: 75%;
+            margin: auto;
+            padding-left: 1em;
+            height: 50px;
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        textarea{
+            width: 80%;
+            background-color: transparent;
+            outline: none;
+            border: none;
+        }
+
+        span{
+            background-color: #48A43F;
+            color: #fff;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-radius: 10px;
+            align-self: flex-end;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+
+        .fa-search{
+            color: #48A43F;
+        }
+
+        .suggest, .suggestions{
+            width: 80%;
+            margin: auto;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            padding-left: 1em;
+        }
+
+        .suggest{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 10px
+        }
+
+        h6 a{
+            text-decoration: none;
+            color: black;
+        }
+
+        @media screen and (min-width: 770px) {
+
+            .search, .suggest, .suggestions{
+                 width: 50%;
+}
+
+}
+
+
+    </style>
+
+</head>
+<body>
+
+    <main>
+
+        <div class="search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <textarea></textarea>
+            <span>Search</span>
+        </div>
+
+        <div class="suggest">suggest</div>
+
+        <div class="suggestions">
+            <h6><a href="#">Bimbo Oshin</a></h6>
+            <h6><a href="#">Kayode John</a></h6>
+            <h6><a href="#">Fisayo Fashion House</a></h6>
+            <h6><a href="#">Adeola</a></h6>
+        </div>
+
+
+    </main>
+    
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>
