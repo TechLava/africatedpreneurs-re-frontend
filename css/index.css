@@ -120,6 +120,11 @@ header{
   font-size: 12px;
 }
 
+.post{
+  display: flex;
+  flex-direction: column;
+}
+
 .intro > p{
   width: 90%;
   margin: auto;
@@ -135,6 +140,12 @@ header{
 .details{
   width: 90%;
   margin: auto;
+  display: flex;
+}
+
+.detail{
+  display: flex;
+  flex-direction: column;
 }
 
 .details > img{
@@ -183,6 +194,29 @@ textarea{
 
 main{
   margin-bottom: 2em;
+}
+
+.talks > h5, .recommend > h5{
+  padding-top: 1em;
+  margin-left: 1em;
+  font-weight: 700;
+}
+
+.recommend > h6{
+  padding-bottom: 1em;
+  margin-left: 1em;
+  font-weight: 700;
+  text-align: center;
+  font-size: 12px;
+}
+
+.top{
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+.top > h5{
+  padding-left: 10px;
 }
 
 /* general design for the event page */
@@ -575,7 +609,7 @@ text-transform: capitalize;
    border-top-right-radius: 5px;
  }
 
- .details{
+ .detailed{
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -1463,7 +1497,7 @@ aside{
    margin-left: -15px;
  }
 
- /* desktop design for desktop page*/
+ /* desktop design for event page*/
  #eventheader{
    display: flex;
    justify-content: space-around;
@@ -1567,7 +1601,7 @@ aside{
    border-top-right-radius: 5px;
  }
 
- .details{
+ .detailed{
    display: flex;
    flex-direction: column;
    justify-content: center;
